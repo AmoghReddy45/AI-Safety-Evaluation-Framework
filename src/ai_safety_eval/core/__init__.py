@@ -1,5 +1,6 @@
 """Core types and utilities for AI Safety Evaluation Framework."""
 
+from ai_safety_eval.core.config import Settings, get_settings
 from ai_safety_eval.core.types import (
     ClassificationResult,
     EvalType,
@@ -12,4 +13,6 @@ __all__ = [
     "EvalType",
     "EvaluationResult",
     "EvaluationRun",
+    "Settings",
+    "get_settings",
 ]
